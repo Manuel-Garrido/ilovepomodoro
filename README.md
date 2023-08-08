@@ -1,10 +1,8 @@
 # Ilovepomodoro - Aplicación para la Técnica de Estudio Pomodoro
 
-![Pomodoro Timer](pomodoro-screenshot.png)
-
 ## Descripción
 
-El **Pomodoro Timer** es una aplicación web diseñada para ayudarte a aplicar la técnica de estudio Pomodoro de manera efectiva. La técnica Pomodoro es un método de gestión del tiempo que implica dividir tus sesiones de estudio en intervalos de tiempo más cortos (llamados "pomodoros") seguidos de breves pausas. Este enfoque mejora la concentración, la productividad y reduce la fatiga mental.
+El **ilovepomodoro** es una aplicación web diseñada para ayudarte a aplicar la técnica de estudio Pomodoro de manera efectiva. La técnica Pomodoro es un método de gestión del tiempo que implica dividir tus sesiones de estudio en intervalos de tiempo más cortos (llamados "pomodoros") seguidos de breves pausas. Este enfoque mejora la concentración, la productividad y reduce la fatiga mental.
 
 ## Características Principales
 
@@ -16,20 +14,14 @@ El **Pomodoro Timer** es una aplicación web diseñada para ayudarte a aplicar l
 
 ## Cómo Usar
 
-1. Abre la página web del **Pomodoro Timer** en tu navegador.
-2. Configura la duración de tus "pomodoros" y las pausas utilizando los campos de entrada.
+1. Abre la página web del **ilovepomodoro** en tu navegador.
+2. Configura la duración de tus "pomodoros".
 3. Haz clic en el botón "Iniciar" para comenzar el temporizador.
 4. Trabaja en tu tarea de estudio hasta que el temporizador de "pomodoro" se complete.
 5. Cuando se complete el "pomodoro", recibirás una notificación y el temporizador se detendrá automáticamente.
 6. Tómate un descanso durante la pausa.
 7. Puedes pausar/reanudar el temporizador en cualquier momento usando el botón correspondiente.
-8. Una vez que hayas completado una serie de "pomodoros", el contador de "pomodoros" aumentará.
 9. ¡Sigue este ciclo de trabajo y pausa para mejorar tu enfoque y productividad durante el estudio!
-
-## Capturas de Pantalla
-
-![Pomodoro Timer - Captura 1](screenshot1.png)
-![Pomodoro Timer - Captura 2](screenshot2.png)
 
 ## Tecnologías Utilizadas
 
@@ -47,4 +39,4 @@ Este proyecto se distribuye bajo la Licencia MIT. Consulta el archivo `LICENSE` 
 
 ---
 
-¡Esperamos que el **Pomodoro Timer** te ayude a mejorar tu enfoque y productividad en tus sesiones de estudio! Siéntete libre de clonar este repositorio y personalizarlo para tus propias necesidades. ¡Felices estudios!
+¡Esperamos que el **ilovepomodoro** te ayude a mejorar tu enfoque y productividad en tus sesiones de estudio! Siéntete libre de clonar este repositorio y personalizarlo para tus propias necesidades. ¡Felices estudios!
