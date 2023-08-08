@@ -40,3 +40,5 @@ Este proyecto se distribuye bajo la Licencia MIT. Consulta el archivo `LICENSE` 
 ---
 
 ¡Esperamos que el **ilovepomodoro** te ayude a mejorar tu enfoque y productividad en tus sesiones de estudio! Siéntete libre de clonar este repositorio y personalizarlo para tus propias necesidades. ¡Felices estudios!
+
+Enlace para probar el proyecto: https://ilovepomodoro.netlify.app/
