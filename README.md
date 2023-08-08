@@ -1,5 +1,8 @@
 # Ilovepomodoro - Aplicación para la Técnica de Estudio Pomodoro
 
+## Avance del proyecto
+El proyecto aún esta en prueba por lo que no incluye muchas funcionalidades solo es una prueba de testeo de hosting y otros elementos de aprendizaje web.
+
 ## Descripción
 
 El **ilovepomodoro** es una aplicación web diseñada para ayudarte a aplicar la técnica de estudio Pomodoro de manera efectiva. La técnica Pomodoro es un método de gestión del tiempo que implica dividir tus sesiones de estudio en intervalos de tiempo más cortos (llamados "pomodoros") seguidos de breves pausas. Este enfoque mejora la concentración, la productividad y reduce la fatiga mental.
