@@ -1,6 +1,7 @@
 const boton = document.getElementById('selector');
 const pararBoton = document.getElementById('parar'); // Agregado botón de parar
 const tiempo = document.getElementById('temporizador');
+const titulo = document.getElementById('titulo');
 
 let horas = 0;
 let minutos = 0;
@@ -22,6 +23,7 @@ boton.addEventListener('click', () => {
         
         if (horas >= 0 && horas <= 23 && minutos >= 0 && minutos <= 59) {
             tiempo.textContent = formatTiempo(horas, minutos, segundos);
+            titulo.textContent = 'I love Pomodoro ♥: '+formatTiempo(horas, minutos, segundos);
     
             interval = setInterval(() => {
                 if (segundos === 0) {
@@ -30,6 +32,7 @@ boton.addEventListener('click', () => {
                             clearInterval(interval);
                             alert('Contador finalizado');
                             pararBoton.style.display='none';
+                            titulo.textContent = 'I love Pomodoro ♥';
                             return;
                         } else {
                             horas--;
@@ -45,6 +48,7 @@ boton.addEventListener('click', () => {
                 }
     
                 tiempo.textContent = formatTiempo(horas, minutos, segundos);
+                titulo.textContent = 'I love Pomodoro ♥: '+formatTiempo(horas, minutos, segundos);
             }, 1000);
             pararBoton.textContent = "Parar"; // Cambia el texto del botón a "Parar"
             pararBoton.style.display = "inline-block"; // Muestra el botón de parar
@@ -67,6 +71,8 @@ pararBoton.addEventListener('click', () => {
                     if (horas === 0) {
                         clearInterval(interval);
                         alert('Contador finalizado');
+                        pararBoton.style.display='none';
+                        titulo.textContent = 'I love Pomodoro ♥';
                         
                         return;
                     } else {
@@ -83,6 +89,7 @@ pararBoton.addEventListener('click', () => {
             }
 
             tiempo.textContent = formatTiempo(horas, minutos, segundos);
+            titulo.textContent = 'I love Pomodoro ♥: '+formatTiempo(horas, minutos, segundos);
         }, 1000);
         pararBoton.textContent = "Parar"; // Cambia el texto del botón a "Parar"
     }
